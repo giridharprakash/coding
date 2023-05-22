@@ -1,0 +1,14 @@
+.image-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  .image-large-container {
+    height: 75%;
+  }
+  .image-button-container {
+    height: 5%;
+  }
+  .image-thumbnail-container {
+    height: 25%;
+  }
+}

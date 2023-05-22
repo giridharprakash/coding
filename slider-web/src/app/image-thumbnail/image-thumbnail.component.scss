@@ -1,0 +1,15 @@
+.thumbnail-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  .thumbnail-image {
+    margin: 3px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+  }
+
+  .selected {
+    border: 2px solid blue;
+  }
+}

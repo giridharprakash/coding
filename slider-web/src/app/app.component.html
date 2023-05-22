@@ -1,0 +1,11 @@
+<div class="image-container">
+  <div class="image-large-container">
+    <app-big-image></app-big-image>
+  </div>
+  <div class="image-button-container">
+    <app-image-button [totalPages]="totalPages" (currentPageEvent)="currentPageChanged($event)"></app-image-button>
+  </div>
+  <div class="image-thumbnail-container">
+    <app-image-thumbnail [currentPage]="currentPage"></app-image-thumbnail>
+  </div>
+</div>

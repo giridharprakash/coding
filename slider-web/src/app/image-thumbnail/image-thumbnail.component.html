@@ -1,0 +1,3 @@
+<div class="thumbnail-container">
+  <img class="thumbnail-image" [class.selected]="selectedTheme?.id === theme.id" *ngFor="let theme of currentThemes" (click)="selectCurrentTheme(theme)" [src]="this.getUrl(theme)">
+</div>
